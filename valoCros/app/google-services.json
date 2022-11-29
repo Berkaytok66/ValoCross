@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1081694873835",
+    "project_id": "valorantcroshair-21263",
+    "storage_bucket": "valorantcroshair-21263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081694873835:android:998997f4e74595c01436ae",
+        "android_client_info": {
+          "package_name": "com.valo.valorcroshhair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081694873835-7ppjgv97ted94jmc0f0ocl5iamlm90ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.valo.valorcroshhair",
+            "certificate_hash": "c9d436c359fcf183526798b7501b28c70a5aeb98"
+          }
+        },
+        {
+          "client_id": "1081694873835-dk1ib4b540sspvrqb4jlv99t6lv55n9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd6izN-GTzkd5GwkHzZJQTPHdLt1LoRE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081694873835-dk1ib4b540sspvrqb4jlv99t6lv55n9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ValorCroshHair</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="orjinBanerCodes1">ca-app-pub-4626303575477690/1569122298</string>
+    <string name="demoBanerCodes1">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="orjinBanerUserCode">ca-app-pub-4626303575477690~6821448979</string>
+    <string name="demoBanerUserCode">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="gecisReklam">ca-app-pub-4626303575477690/7907246039</string>
+</resources>

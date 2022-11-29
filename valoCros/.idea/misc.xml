@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/drawable/edit_text_bacgrount.xml" value="0.345" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/drawable/edit_text_bacgrount2.xml" value="0.345" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/drawable/item_img_bacgrount.xml" value="0.291" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/drawable/navdrawer_background.xml" value="0.236" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/admin_veri_ekle_dialog.xml" value="0.33" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/ana_cros_bilgiler_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/ana_sayfa_croslar.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/banner_ad_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/fragment_klavuz.xml" value="0.2916666666666667" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/fragment_new_cross.xml" value="0.33" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/fragment_share.xml" value="0.25" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/fragment_troll_cross.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/loading_layout.xml" value="0.365625" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/share_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/layout/share_item.xml" value="0.365625" />
+        <entry key="..\:/JavaProjeler/valoCros/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

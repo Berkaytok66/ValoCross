@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navdrawer_color">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCrosNameInput"
+        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#2FFFFFFF"
+        android:hint="Cros Name"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperText="Gerekli*"
+        app:helperTextTextColor="#E87070"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputCrosNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#11000000"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputUrl"
+        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#2FFFFFFF"
+        android:hint="/URL"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperText="Gerekli*"
+        app:helperTextTextColor="#E87070"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputCrosNameInput"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputUrlEditText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#11000000"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textColor="#F4F4F4" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputCoderLayout"
+        style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#2FFFFFFF"
+        android:hint="Code"
+        app:counterEnabled="true"
+
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperText="Gerekli*"
+        app:helperTextTextColor="#E87070"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputUrl"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputCodeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#11000000"
+            android:gravity="top"
+            android:padding="10dp"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/AnaSayfaEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:hint="ANA SAYFA EKLE"
+        app:layout_constraintBaseline_toBaselineOf="@+id/TrolSayfaEkle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/TrolSayfaEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:hint="Trol Sayfa Ekle"
+        app:layout_constraintStart_toEndOf="@+id/AnaSayfaEkle"
+        app:layout_constraintTop_toBottomOf="@+id/textInputCoderLayout" />
+
+    <Button
+        android:id="@+id/ProSayfaEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:hint="Pro Sayfa Ekle"
+        app:layout_constraintBaseline_toBaselineOf="@+id/TrolSayfaEkle"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
